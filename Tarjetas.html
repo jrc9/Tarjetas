@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Tarjetas</title>
+<link rel="stylesheet" href="./Tarjetas_files/styles.css"></head>
+<body>
+    <header class="encabezado">
+            <h1 class="title">Reliable, efficient delivery</h1>
+            <h2 class="subtitle">Powered by Technology</h2>
+            <div class="description">
+                <p>Our Artificial Inteligence powered tools use millions of project data</p>
+                <p>points to ensure that your protect is succesfull</p>
+            </div>
+    </header>
+
+    <main>
+
+        <div class="tarjeta tarjeta_izq">
+            <h3 class="title-tarjeta">Supervisor</h3>
+            <p class="desc">Monitors activity to identify project roadblocks</p>
+            <img src="./Tarjetas_files/lupa.svg" alt="lupa" class="imagen">
+        </div>
+        <div class="tarjeta">
+            <h3 class="title-tarjeta tarjeta_top">Team Builder</h3>
+            <p class="desc">Scans our talent network to create the optimal team for your project</p>
+            <img src="./Tarjetas_files/casa.svg" alt="casa" class="imagen">
+        </div>
+        <div class="tarjeta">
+            <h3 class="title-tarjeta tarjeta_der">Supervisor</h3>
+            <p class="desc">Uses data from past projects to provide better delivery estimates</p>
+            <img src="./Tarjetas_files/monitor.svg" alt="monitor" class="imagen">
+        </div>
+        <div class="tarjeta">
+            <h3 class="title-tarjeta tarjeta_bot">Karma</h3>
+            <p class="desc">Regularty evaluates our talent to ensure quality</p>
+            <img src="./Tarjetas_files/foco.svg" alt="foco" class="imagen">
+        </div>
+
+    </main>
+
+    
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
