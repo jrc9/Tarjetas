@@ -33,27 +33,32 @@ body{
 main{
     margin-top: 4rem;
 }
+
 .tarjeta_izq{
     position: absolute;
     left: 12%;
     top: 26vw;
     box-shadow: 0px -5px 0px aquamarine;
+    border-top: 5px solid cyan;
 }
 .tarjeta_top{
     position: absolute;
     margin-left: 38%;
+    border-top: 5px solid red;
 }
 
 .tarjeta_der{
     position: absolute;
     right: 12%;
     top: 26vw;
+    border-top: 5px solid hsl(180, 62%, 50%);
 }
 
 .tarjeta_bot{
     position: absolute;
     margin-left: 38%;
     top: 35vw;
+    border-top: 5px solid rgb(172, 172, 33);
 }
 
 .tarjeta{
